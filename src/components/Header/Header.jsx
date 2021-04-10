@@ -10,9 +10,9 @@ const Header = () => {
             <nav className="navbar">
                 <ul className="navbar-list">
                     <li className="nav-item">Inicio</li>
-                    <li>Características</li>
-                    <li>Apoyo</li>
-                    <li>Contáctanos</li>
+                    <li className="nav-item">Características</li>
+                    <li className="nav-item">Apoyo</li>
+                    <li className="nav-item">Contáctanos</li>
                 </ul>
             </nav>
         </header>

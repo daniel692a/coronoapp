@@ -1,7 +1,25 @@
 .header {
-    font-family: 'Rubik';
+    font-family: 'Raleway', sans-serif;
+    padding: 37px 0 0 52px;
+    display: flex;
+}
+.header .header-logo {
+    width: 143px;
+    height: 40px;
+}
+.header .navbar {
+    margin-left: 381px;
 }
 .header .navbar .navbar-list {
     display: flex;
     list-style: none;
+}
+
+.navbar-list .nav-item {
+    margin: 1.4rem 3.8rem 0 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.174rem;
+    letter-spacing: 0.14rem;
 }
