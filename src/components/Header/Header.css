@@ -8,11 +8,12 @@
     height: 40px;
 }
 .header .navbar {
-    margin-left: 381px;
+    margin: auto;
 }
 .header .navbar .navbar-list {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .navbar-list .nav-item {

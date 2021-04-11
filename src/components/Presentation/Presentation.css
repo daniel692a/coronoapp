@@ -1,8 +1,30 @@
-main{
-    font-family: 'Rubik', sans-serif;
+.main{
+    display: flex;
 }
-main h1{
+.main .main-content .title{
+    font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-size: 4.4rem;
     line-height: 5.54rem;
+}
+.main .main-content .title span{
+    color: var(--main-color);
+}
+.main .main-content .description {
+    color: var(--gray);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+.main .main-content .btn {
+    padding: 1.4rem 2.9rem;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.14rem;
+    font-weight: 800;
+    color: var(--white-secondary);
+    font-family: 'Raleway', sans-serif;
 }
