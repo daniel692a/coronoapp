@@ -15,6 +15,7 @@ const Header = () => {
                     <li className="nav-item">Contáctanos</li>
                 </ul>
             </nav>
+            <div className="rect"></div>
         </header>
     )
 }

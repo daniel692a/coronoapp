@@ -1,11 +1,20 @@
 .main{
     display: flex;
+    width: 80%;
+    margin-top: 10rem;
+    justify-content: center;
+}
+.main .main-content {
+    width: 40%;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .main .main-content .title{
-    font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-size: 4.4rem;
-    line-height: 5.54rem;
+    line-height: 126%;
 }
 .main .main-content .title span{
     color: var(--main-color);
@@ -13,18 +22,34 @@
 .main .main-content .description {
     color: var(--gray);
     font-size: 1.2rem;
-    line-height: 1.7rem;
+    line-height: 138.5%;
+    margin: 11px 0;
+    letter-spacing: 0.08rem;
 }
 .main .main-content .btn {
     padding: 1.4rem 2.9rem;
     background-color: var(--main-color);
     border: none;
     border-radius: 0.5rem;
-    text-transform: uppercase;
     font-size: 1.2rem;
     line-height: 1.2rem;
     letter-spacing: 0.14rem;
     font-weight: 800;
     color: var(--white-secondary);
     font-family: 'Raleway', sans-serif;
+    width: 14.4rem;
+}
+.main .btn-play{
+    margin-top: 1.2rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.165rem;
+}
+.main .btn-play img {
+    margin-right: 1.2rem;
 }

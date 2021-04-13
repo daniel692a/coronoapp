@@ -51,9 +51,13 @@ Tener instalado git y node.js
 
 ## :fire: Instalación
 
+Clonar repositorio:
 `git clone https://github.com/daniel692a/coronoapp.git`
+Dirígete al proyecto:
 `cd coronoapp`
+Instalar dependencias:
 `npm install`
+Levantar servidor
 `npm start`
 
 ## :mag: Vistas
@@ -68,7 +72,10 @@ Tener instalado git y node.js
 
 ## :pushpin: Stack
 
-React
+* React.js
+* JavaScript
+* HTML5
+* CSS3
 
 ## :star2: Autor
 
